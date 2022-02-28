@@ -35,7 +35,7 @@
 }
 .header{
     background: #f5f6fc;
-    margin-bottom: -80px;
+    margin-bottom: 80px;
 }
 .navbar{
     padding: 0 35px;
@@ -83,3 +83,90 @@
     padding: 0px 10px;
     
 }
+/*Fashion trend style start from here */
+.fashion-trend{
+    padding: 100px 0;
+}
+.fashion-box{
+    margin:80px 0;
+}
+.title-style {
+    margin: 0px auto 80px;
+    height:120px;
+    width: 50%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.title-style h1{
+    padding: 40px 0;
+    font-weight: 700;
+    font-style: italic;
+}
+.title-style::after{
+    content: '';
+    height: 100px;
+    width:200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.title-style::before{
+    content: '';
+    height: 100px;
+    width:200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.trending-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img img{
+    width: 100%;
+}
+.btn-buy{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #fff;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50% , 0);
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    opacity: 0;
+    z-index: 1;
+}
+.trending-img:hover .btn-buy{
+    transform: translate(-50% , 50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.overlay{
+   height:0;
+   width: 100%;
+   background: #333;
+   position: absolute;
+   top:0;
+   opacity: 0.5;
+   transition:.5s ;
+}
+.trending-img:hover .overlay{
+    opacity: .5;
+    height:100%;
+}
+
+/*Fashion trend style start from here */
