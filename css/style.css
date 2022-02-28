@@ -17,7 +17,7 @@
 }
 .d-flex .input-group{
    height: 2px !important;
-   margin-top: 20px !important;
+  
 }
 .navbar-brand img {
     width:160px;
@@ -35,6 +35,7 @@
 }
 .header{
     background: #f5f6fc;
+    margin-bottom: -80px;
 }
 .navbar{
     padding: 0 35px;
@@ -42,11 +43,11 @@
 .navbar-toggler{
     border: none !important;
     outline: none !important;
-    padding: 0 !important;
+    padding: 5px !important;
     margin-top: 25px !important;
     margin-bottom: 15px !important;
-
-
+    line-height: 1;
+   
 }
 .navbar-toggler.fa {
     font-size: 30px;
@@ -58,3 +59,27 @@
     color: rgb(83, 96, 110) !important;
 }
 /* navigtionbar end here */
+.banner-img{
+    margin:80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner{
+    position:relative;
+}
+.banner-title{
+    position: absolute;
+    left:50%;
+    top:20%;
+}
+.banner-title h1{
+    font-size: 55px;
+    background: rgba(0,0,0,0.75);
+    color:#fff;
+    line-height: 60px;
+    padding: 0px 10px;
+    
+}
